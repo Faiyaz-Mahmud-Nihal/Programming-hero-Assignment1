@@ -1,0 +1,274 @@
+
+.background{
+     background-image:url(../assets/Hero-bg.png);
+     position: static;
+     width: 1920px;
+     height: 850px;
+     left: 0;
+     right: 0;
+     top: 120px;
+     bottom: 4462px;
+     margin-bottom: 7%;
+          
+
+}
+
+.background_contain{
+     width: 80%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     align-content: center;
+     margin: 0 auto;
+     padding: 5%;
+     
+
+}
+
+.background_contain h1{
+     font-weight: 800;
+     font-size:50px ;
+     text-align: center;
+     line-height: 70px;
+     font-family: Azeret Mono;
+     
+}
+.background_contain small{
+     text-align: center;
+     font-size: 15px;
+     margin-bottom: 30px;
+     font-size: larger;
+     font-family: Azeret Mono;
+     font-weight: 500;
+}
+.hero_img{
+     width: 300px;
+}
+.button{
+     background-color: black;
+     font-family: Azeret Mono;
+     color: white;
+     font-size:25px;
+     padding: 20px;
+     border-radius: 10px;
+}
+
+.resume{
+     font-weight: 500;
+     display: flex;
+     font-family: Azeret Mono;
+     justify-content: space-between;
+     margin: 1% 12% 3% 12%;
+     
+     
+}
+.resume_button{
+     font-family: Azeret Mono;
+     background-color: white;
+     border: solid black 1.5px;
+     font-size: 20px;
+     border-radius: 10px;
+     font-weight: 650;
+     padding-left: 30px;
+     padding-right: 30px;
+}
+.section2{
+
+     width: 80%;
+     margin: 0 auto;
+     /* text-align: center; */
+     align-items: center;
+     padding-top: 7%;
+     background-color:rgba(13, 19, 33, 0.02);
+     /* border: solid black 1px; */
+     border-radius: 10px;
+     
+     
+}
+
+.section2 .title h1{
+     padding-left:5%;
+     padding-right: 5%;
+     font-weight: 700;
+     font-size: 45px;
+     font-family: Azeret Mono;
+     text-align: center;
+}
+.section2 .title p{
+     font-family: Azeret Mono;
+     font-weight: 500;
+     text-wrap: wrap;
+     padding-left:9% ;
+     padding-right:9% ;
+     text-align: center;
+}
+.why{
+     /* background-color: rgb(219, 48, 48); */
+     /* justify-content: space-between; */
+     display: flex;
+     
+
+     margin:0 auto;
+     margin-top: 5%;
+     width: 70%;
+     font-family: Azeret Mono;
+}
+.section2_img{
+     width: 140%;
+}
+.section2_font{
+     /* background-color: yellow; */
+     
+     font-size: 20px;
+     text-wrap: wrap;
+     width: 600px;
+     /* margin: 100px; */
+     
+}
+.why div{
+     margin: 50px;
+     /* width: 20%; */
+     
+}
+.button_learnmore{
+     /* background-color: white; */
+     font-family: Azeret Mono;
+     border-radius: 2px;
+     padding: 10px 20px 10px 20px;
+     font-weight: 500;
+     font-size: 20px;
+}
+
+.section3{
+     
+
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 5%;
+     margin-left: 15%;
+     margin-right: 15%;
+
+
+}
+.section3_header{
+     font-size: 25px;
+     font-family: Azeret Mono;
+     font-weight: 500;
+     line-height: 0;
+}
+.section3_caption{
+     font-weight: 400;
+     font-family: Azeret Mono;
+     width: 70%;
+     margin-bottom: 2%;
+     text-align: center;
+}
+.section3_video{
+     border: 80px solid rgba(187, 205, 247, 0.2);
+     border-radius: 16px;
+
+
+}
+.section4{
+     margin-top: 100px;
+     margin-bottom: 100px;
+}     
+
+.section4_heading ,.section4_caption{
+     display: flex;
+     /* background-color: aquamarine; */
+     margin-left: 15%;
+     margin-right: 15%;
+     justify-content: center;
+     text-align: center;
+
+}
+
+.section4_main{
+     display: flex;
+     /* justify-content: space-evenly; */
+     margin-left:15% ;
+     margin-right:15% ;
+     gap: 30px;
+     /* background-color: chartreuse; */
+     
+
+     
+     
+     
+}
+
+.section4_main div{
+     /* background-color: blueviolet; */
+     padding: 25px;
+     border-radius: 10px;
+     margin-bottom: 20px;
+     text-align: justify;
+     font-family: Azeret Mono;  
+}
+
+
+
+.section4_main div img{
+     width: 65px;
+}
+.html{
+     
+     border-radius: 16px;
+
+     background: rgba(255, 76, 30, 0.05);
+}
+.CSS{
+     border-radius: 16px;
+
+     background: rgba(0, 76, 232, 0.05);
+}
+.JS{
+
+     border-radius: 16px;
+
+     background: rgba(255, 223, 0, 0.05);
+
+}
+.section4_caption{
+     font-weight: 400;
+     margin: 0 25% 5% 25%;
+     font-size: 20px;
+}
+.section4_heading{
+     font-size: 30px;
+     line-height: 0;
+}
+.section5{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     background-color: yellow;
+     margin-left: 15%;
+     margin-right: 15% ;
+     padding: 7%;
+
+     margin-bottom: 10%;
+     background-image: url(../assets/handshake.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     /* background-attachment: fixed; */
+     background-size: cover;
+     border-radius: 16px;
+
+}
+.section5_heading{
+     font-size: 30px;
+     color: white;
+     font-family: Azeret Mono;
+     line-height: 0;
+
+}
+.section5_caption{
+     color: white;
+     font-family: Azeret Mono;
+     text-align: center;
+     
+}
