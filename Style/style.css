@@ -291,4 +291,19 @@
      border-radius: 10px;
      font-size: 15px;
 }
+.footer{
+     display: flex;
+     justify-content: space-between;
+     margin: 3% 14.3% 0% 14.3%;
+     
+
+}
+.inside_footer{
+     display: flex;
+     justify-content: space-between;
+     gap: 12px;
+}
+footer>div{
+     background-color:rgba(13, 19, 33, 0.02) ;
+}
 
