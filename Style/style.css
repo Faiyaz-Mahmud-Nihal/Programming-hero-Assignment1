@@ -182,6 +182,7 @@
      margin-right: 15%;
      justify-content: center;
      text-align: center;
+     font-family: Azeret Mono;
 
 }
 
@@ -272,3 +273,22 @@
      text-align: center;
      
 }
+.suggest{
+     width: 50%;
+     padding: 15px 30px 15px 30px;
+     font-family: Azeret Mono;
+     border-radius: 10px;
+
+
+}
+.submit{ 
+     border: 10px white solid;
+     padding: 5px 15px;
+     background-color: white;
+     color: black;
+     font-weight: 700;
+     font-family: Azeret Mono;
+     border-radius: 10px;
+     font-size: 15px;
+}
+
